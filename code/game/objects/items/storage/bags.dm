@@ -538,9 +538,9 @@ TYPEINFO_DEF(/obj/item/storage/bag/tray)
 
 /obj/item/storage/bag/construction/Initialize()
 	. = ..()
-	atom_storage.max_total_storage = 100
-	atom_storage.max_slots = 50
-	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
+	atom_storage.max_total_storage = 50
+	atom_storage.max_slots = 10
+	atom_storage.max_specific_storage = WEIGHT_CLASS_NORMAL
 	atom_storage.set_holdable(list(
 		/obj/item/assembly,
 		/obj/item/stock_parts,
@@ -548,7 +548,8 @@ TYPEINFO_DEF(/obj/item/storage/bag/tray)
 		/obj/item/stack/cable_coil,
 		/obj/item/circuitboard,
 		/obj/item/electronics,
-		/obj/item/wallframe/camera
+		/obj/item/wallframe/camera,
+		/obj/item/stack/sheet,
 		))
 
 /obj/item/storage/bag/harpoon_quiver
