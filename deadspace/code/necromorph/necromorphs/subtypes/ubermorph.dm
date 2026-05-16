@@ -2,6 +2,9 @@
 	maxHealth = INFINITY
 	class = /datum/necro_class/ubermorph
 	necro_species = /datum/species/necromorph/ubermorph
+	move_force = MOVE_FORCE_OVERPOWERING
+	move_resist = MOVE_FORCE_OVERPOWERING
+	pull_force = MOVE_FORCE_OVERPOWERING
 
 /mob/living/carbon/human/necromorph/ubermorph/Initialize(mapload, obj/structure/marker/marker_master)
 	. = ..()

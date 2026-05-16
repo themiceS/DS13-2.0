@@ -11,6 +11,9 @@
 	status_flags = CANSTUN|CANUNCONSCIOUS
 	///Brute has armor ontop of armor, reducing or potentially negating most damage from the front.
 	var/list/facing_modifiers = list(BRUTE_FRONT_ARMOUR = 65, BRUTE_SIDE_ARMOUR = 10, BRUTE_BACK_ARMOUR = -40)
+	move_force = MOVE_FORCE_OVERPOWERING
+	move_resist = MOVE_FORCE_OVERPOWERING
+	pull_force = MOVE_FORCE_OVERPOWERING
 
 
 /mob/living/carbon/human/necromorph/brute/play_necro_sound(audio_type, volume, vary, extra_range)

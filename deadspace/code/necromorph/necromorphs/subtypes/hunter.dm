@@ -7,6 +7,9 @@
 	maxHealth = 275
 	class = /datum/necro_class/hunter
 	necro_species = /datum/species/necromorph/hunter
+	move_force = MOVE_FORCE_OVERPOWERING
+	move_resist = MOVE_FORCE_OVERPOWERING
+	pull_force = MOVE_FORCE_OVERPOWERING
 
 /mob/living/carbon/human/necromorph/hunter/play_necro_sound(audio_type, volume, vary, extra_range)
 	playsound(src, pick(GLOB.hunter_sounds[audio_type]), volume, vary, extra_range)
