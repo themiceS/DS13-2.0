@@ -11,7 +11,7 @@ TYPEINFO_DEF(/obj/structure/low_wall)
 	greyscale_colors = "#57575c"
 	density = TRUE
 	anchored = TRUE
-	pass_flags_self = PASSTABLE | LETPASSTHROW
+	pass_flags_self = PASSTABLE | LETPASSTHROW | PASSLOWWALL
 	can_atmos_pass = CANPASS_ALWAYS
 	layer = LOW_WALL_LAYER
 	max_integrity = 150

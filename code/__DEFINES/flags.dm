@@ -158,6 +158,8 @@ GLOBAL_LIST_INIT(bitflags, list(1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 204
 #define LETPASSCLICKS (1<<13)
 /// Pass through flock objects and mobs
 #define PASSFLOCK (1<<14)
+/// what the fuck am i doing
+#define PASSLOWWALL (1<<15)
 
 //Movement Types
 #define GROUND (1<<0)
